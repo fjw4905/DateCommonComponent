@@ -1,0 +1,6 @@
+framework module Pods_DateCommonComponent_Tests {
+  umbrella header "Pods-DateCommonComponent_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

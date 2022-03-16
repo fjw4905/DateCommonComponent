@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DateCommonComponent_Example' do
+  pod 'DateCommonComponent', :path => '../'
+
+  target 'DateCommonComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

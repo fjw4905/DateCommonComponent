@@ -1,0 +1,6 @@
+framework module DateCommonComponent {
+  umbrella header "DateCommonComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

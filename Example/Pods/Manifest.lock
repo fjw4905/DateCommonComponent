@@ -1,0 +1,16 @@
+PODS:
+  - DateCommonComponent (1.0.0)
+
+DEPENDENCIES:
+  - DateCommonComponent (from `../`)
+
+EXTERNAL SOURCES:
+  DateCommonComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DateCommonComponent: 56608c7976cb1b7fd2a84df3b6d3281e48ecc3c4
+
+PODFILE CHECKSUM: bf6e74a4e19adb89ae2f871eae8f5164620e8d99
+
+COCOAPODS: 1.11.2
