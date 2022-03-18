@@ -1,15 +1,22 @@
 PODS:
-  - DateCommonComponent (1.0.0)
+  - DateCommonComponent (1.0.1):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - DateCommonComponent (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   DateCommonComponent:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DateCommonComponent: 56608c7976cb1b7fd2a84df3b6d3281e48ecc3c4
+  DateCommonComponent: 766b08338a159f336bf5bb0f3b7cd9f87e9b12cc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: bf6e74a4e19adb89ae2f871eae8f5164620e8d99
 

@@ -1,7 +1,7 @@
 {
   "name": "DateCommonComponent",
-  "version": "1.0.0",
-  "summary": "基于 Cocoapods 管理开发的日期选择控件",
+  "version": "1.0.1",
+  "summary": "基于 Cocoapods 管理开发的日期选择控件 更新为framework",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://www.jianshu.com/u/7671114a2b6f",
   "license": {
@@ -13,10 +13,16 @@
   },
   "source": {
     "git": "https://github.com/fjw4905/DateCommonComponent.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "DateCommonComponent/Classes/**/*"
+  "source_files": "DateCommonComponent/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DateCommonComponent'
-  s.version          = '1.0.1'
-  s.summary          = '基于 Cocoapods 管理开发的日期选择控件'
+  s.version          = '1.0.2'
+  s.summary          = '基于 Cocoapods 管理开发的日期选择控件 更新为framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,17 +29,17 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-    s.ios.vendored_frameworks = 'DateCommonComponent/Classes/DateCommonComponent.framework'
+  # s.ios.vendored_frameworks = 'DateCommonComponent/Classes/DateCommonComponent.framework'
 
 
-  # s.source_files = 'DateCommonComponent/Classes/**/*'
+  s.source_files = 'DateCommonComponent/Classes/**/*'
     
     
   # s.resource_bundles = {
   #   'DateCommonComponent' => ['DateCommonComponent/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
 end
