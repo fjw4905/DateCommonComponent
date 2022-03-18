@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "冯俊武";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JD6KJ6BU4C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -496,10 +499,11 @@
 			baseConfigurationReference = E536D1A5A9AC32AC8B8CA900 /* Pods-DateCommonComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JD6KJ6BU4C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DateCommonComponent/DateCommonComponent-Prefix.pch";
 				INFOPLIST_FILE = "DateCommonComponent/DateCommonComponent-Info.plist";
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,10 +517,11 @@
 			baseConfigurationReference = A256BB6700795245EA87D66A /* Pods-DateCommonComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JD6KJ6BU4C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DateCommonComponent/DateCommonComponent-Prefix.pch";
 				INFOPLIST_FILE = "DateCommonComponent/DateCommonComponent-Info.plist";
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

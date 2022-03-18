@@ -1,7 +1,7 @@
 {
   "name": "DateCommonComponent",
-  "version": "1.0.1",
-  "summary": "基于 Cocoapods 管理开发的日期选择控件 更新为framework",
+  "version": "1.0.3",
+  "summary": "对日历控件进行了封装，支持酒店、飞机的日期选择",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://www.jianshu.com/u/7671114a2b6f",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fjw4905/DateCommonComponent.git",
-    "tag": "1.0.1"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"

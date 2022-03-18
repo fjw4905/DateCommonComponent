@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DateCommonComponent'
-  s.version          = '1.0.2'
-  s.summary          = '基于 Cocoapods 管理开发的日期选择控件 更新为framework'
+  s.version          = '1.0.3'
+  s.summary          = '对日历控件进行了封装，支持酒店、飞机的日期选择'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -42,4 +42,5 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Masonry'
+  # s.dependency 'MBProgressHUD', '0.9.2'
 end
